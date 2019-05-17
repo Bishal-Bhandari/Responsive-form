@@ -4,8 +4,7 @@
   --bg-color: orange;
 }
 body{
-	/*font-family: 'Noto Sans', sans-serif;*/
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	width: 75%;
 	margin: auto;
 }
@@ -49,7 +48,7 @@ input{
 }
 .icon{
 	font-size:70px !important;
-	transform: rotate(180deg);
+	transform: rotate(180deg)scale(1.5,1);
 }
 .about-btn{
 	text-decoration: none;
@@ -76,6 +75,10 @@ input{
     margin-left: -35px;
     padding-top: 20px;
     border-radius: 10px 0px 0px 10px;
+}
+input{
+    background-color: white;
+    color: var(--color2);
 }
 input[type=submit]{
 	width: 30%;
@@ -119,5 +122,48 @@ input[type=submit] {
     padding: 6px 13px;
     float: none;
 }
-
+input{
+    background-color: white;
+    color: var(--color2);
 }
+}
+/*mobile*/
+@media screen and (min-width: 0px) and (max-width: 640px){
+article{
+    width:100%;
+}
+.form{
+    width: 100%;
+    padding: 0%;
+}
+form{
+    margin: auto;
+}
+.form-input {
+    width: 100%;
+    text-align: center;
+    background: #f5f3f3;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 20px;
+    margin:auto;
+    border-radius: 10px;
+    padding-left: 12px;
+}
+.ovel-box{
+    display: none;
+}
+input[type=submit] {
+    width: 30%;
+    border-radius: 22px;
+    background-color: #e49959;
+    color: white;
+    padding: 6px 13px;
+    float: none;
+}
+input{
+    background-color: white;
+    color: var(--color2);
+}
+
+    }
