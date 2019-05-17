@@ -34,6 +34,7 @@ article p{
 	box-sizing: border-box;
     padding: 0% 0% 0% 5%;
     color: var(--color2);
+    height: 340px;
 }
 form{
 	margin-right: 25px;
